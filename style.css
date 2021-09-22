@@ -1,0 +1,107 @@
+/* Comments */
+
+/* Element sectors */
+/* targets all the matching elements */
+
+h1{
+    color: purple;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* universal selectors */
+
+/* * { 
+    color: blue;
+}*/
+
+
+
+/* class selectors */
+
+ .subtitle {
+     color: skyblue;
+ }
+
+
+ /* Id selectors */
+
+ #msg {
+     color:chartreuse;
+ }
+ #manish{
+     color:black;
+ }
+
+ p{
+     width: 50%;
+     color: yellow;
+     background-color:red;
+     margin: 30px;
+     padding:10px2px 30px 5px;
+     border: 2px solid black;
+
+     /* border: 2px SIZE solid  TYPE black COLOUR */
+
+     border-radius: 20px;
+     box-shadow: 10px;
+ }
+ /* padding to the Top Right Bottom Left */
+
+
+
+
+ /* ids are more preority than classes or attributes or elements */
+
+
+ html, body {
+     margin:0;
+     padding:0;
+     font-family:sans-serif;
+     scroll-behavior: smooth;
+ }
+
+
+ button{
+     color: white;
+     background-color: black;
+     border:0;
+     border-radius: 5px;
+     padding: 5px;
+     margin: 10px;
+ }
+
+
+ h3:hover {
+     text-decoration: underline;
+     color: red;
+ }
+
+
+ body{
+     background-color: #00d1ae;
+
+ }
+ .first{
+     width: 400px;
+     height: 200px;
+     background-color: #001dae;
+ }
+
+.second{
+    width: 100px;
+    height: 200px;
+    background-color: red;
+}
+
+.bus{
+    color:red;
+}
+
+.glass{
+    color:salmon;
+}
